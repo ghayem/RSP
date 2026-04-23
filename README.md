@@ -46,22 +46,6 @@ To account for this, the paper models the gain and noise processes with Gaussian
 
 ---
 
-## Main idea of the method
-
-Many sensor placement methods optimize an average quantity, such as a mean SNR or an interpolation-oriented score. In contrast, this paper proposes a **robust probabilistic criterion**:
-
-- instead of maximizing only the expected SNR,
-- it maximizes the probability that the SNR is larger than a fixed threshold.
-
-Because the gain and noise are modeled as Gaussian processes, this probability can be computed analytically or efficiently approximated within the proposed framework. The paper also introduces a **sequential maximization strategy**, where sensor positions are chosen one by one, in order to reduce the computational cost of full joint optimization over all sensor locations.
-
-In summary, the method has two main strengths:
-
-1. **Robustness to uncertainty** in gain and correlated noise  
-2. **Reduced computational complexity** through sequential sensor selection rather than exhaustive joint search
-
----
-
 ## 1D and 2D implementations
 
 The repository contains two experiment folders:
@@ -87,17 +71,6 @@ The proposed approach can be summarized as follows:
 6. Use a sequential strategy to add sensors one at a time when full joint optimization is too expensive
 
 This criterion is designed for **robust source extraction**, not just interpolation accuracy.
-
----
-
-## Why this method is different
-
-The work distinguishes this problem from two related settings:
-
-- **Sensor selection**: all sensor signals are already available, and one selects a subset afterward
-- **Sensor placement**: one must decide where to place the sensors before measurements are available
-
-The method in this repository belongs to the second category. It is also different from criteria that only maximize average SNR, because it accounts for uncertainty and optimizes a probabilistic robustness criterion.
 
 ---
 
