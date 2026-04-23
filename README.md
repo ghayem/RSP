@@ -100,9 +100,13 @@ The numerical experiments are designed to show that optimizing the probability o
 If you use this code, please cite:
 
 ```bibtex
-@article{ghayem2021rsp,
-  title={Robust Sensor Placement for Signal Extraction},
-  author={Ghayem, Fateme and Rivet, Bertrand and Cabral Farias, Rodrigo and Jutten, Christian},
+@article{ghayem2021robust,
+  title={Robust sensor placement for signal extraction},
+  author={Ghayem, Fateme and Rivet, Bertrand and Farias, Rodrigo Cabral and Jutten, Christian},
   journal={IEEE Transactions on Signal Processing},
-  year={2021}
+  volume={69},
+  pages={4513--4528},
+  year={2021},
+  publisher={IEEE}
 }
+```
