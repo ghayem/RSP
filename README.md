@@ -21,8 +21,6 @@ More specifically, the paper considers source extraction from measurements recor
 The public repository contains two main implementations:
 - `RSP_1D_TSP_2021`
 - `RSP_2D_TSP_2021`  
-along with the paper PDF and an older RTF readme.
-
 ---
 
 ## Repository contents
