@@ -29,9 +29,6 @@ along with the paper PDF and an older RTF readme.
 
 - `RSP_1D_TSP_2021/` — MATLAB code for 1D sensor placement experiments
 - `RSP_2D_TSP_2021/` — MATLAB code for 2D sensor placement experiments
-- `RSP_2021.pdf` — paper PDF included in the repository
-- `Readme_RSP_TSP_2021.rtf` — original readme file
-- `README.md` — repository description
 
 The repository is primarily MATLAB code, and the two main folders suggest separate implementations for one-dimensional and two-dimensional experimental settings.
 
